@@ -1,39 +1,3 @@
-// Function to add a new node to the end of the list
-//   void add(dynamic data) {
-//     Node newNode = Node(data);
-//     if (head == null) {
-//       head = newNode;
-//     } else {
-//       Node temp = head!;
-//       while (temp.next != null) {
-//         temp = temp.next!;
-//       }
-//       temp.next = newNode;
-//     }
-//   }
-
-//   // Function to print the elements of the list
-//   void display() {
-//     Node? temp = head;
-//     while (temp != null) {
-//       print(temp.data);
-//       temp = temp.next;
-//     }
-//   }
-// }
-
-// void main() {
-//   LinkedList linkedList = LinkedList();
-
-//   // Adding elements to the linked list
-//   linkedList.add(1);
-//   linkedList.add('data');
-//   linkedList.add(3);
-
-//   // Displaying the elements of the linked list
-//   linkedList.display();
-// }
-
 class Node {
   dynamic data;
   Node? next;
